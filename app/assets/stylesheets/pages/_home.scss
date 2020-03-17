@@ -1,1 +1,80 @@
 // Specific CSS for your home-page
+
+body {
+  background: white;
+}
+
+// PICTURES
+
+.pictures {
+  display: flex;
+  height: 50vh;
+  width: 90vw;
+}
+
+.pic1 {
+  background-image: url("https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  height: 50vh;
+  width: 30vw;
+  margin: 1vh 0.5vw;
+}
+
+.pic2 {
+  background-image: url("https://images.unsplash.com/photo-1505253758473-96b7015fcd40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=645&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  width: 30vw;
+  margin: 1vh 0.5vw;
+}
+
+.pic5 {
+  background-image: url("https://images.unsplash.com/photo-1534939561126-855b8675edd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+  background-size: cover;
+  height: 50vh;
+  width: 30vw;
+  margin: 1vh 0.5vw;
+}
+
+.double-pics {
+  margin: 1vh 0.5vw;
+}
+
+.pic3 {
+  background-image: url("https://images.unsplash.com/photo-1574653853027-5382a3d23a15?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1352&q=80");
+  background-position: center;
+  background-size: cover;
+  height: 24.5vh;
+  width: 15vw;
+  margin-bottom: 1vh;
+}
+
+.pic4 {
+  background-image: url("https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center;
+  background-size: cover;
+  height: 24.5vh;
+  width: 15vw;
+}
+
+
+// PICTURES CONTENT
+
+.title-class {
+  display: flex;
+  justify-content: center;
+}
+
+.title-class h2 {
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.spec-class {
+  display: flex;
+  justify-content: space-around;
+}
+
+.spec-class p {
+  margin: 0 !important;
+}
