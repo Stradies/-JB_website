@@ -1,12 +1,21 @@
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-portfolio {
+  display: flex;
+  justify-content: right;
+  // align-items: center;
+  background: #f16c43;
+  padding-top: 2%;
+  padding-left: 3%;
+  padding-bottom: 2%;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-portfolio h1 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: #231f20;
+  margin: 0px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
+// .navbar-portfolio h1 span {
+//   color: #a0a0a0;
+// }
