@@ -66,7 +66,7 @@ body {
   justify-content: center;
 }
 
-.title-class h2 {
+.title-class h1 {
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -78,3 +78,38 @@ body {
 .spec-class p {
   margin: 0 !important;
 }
+
+.spec-class p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+// PROGRAM
+
+.program {
+  background: #276462;
+}
+
+.title-program {
+
+}
+
+.title-program h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+}
+
+.content-program {
+  width: 75%;
+}
+
+.content-program p {
+  color: white;
+  font-size: 18px;
+}
+
+.content-program li {
+  color: white;
+  font-size: 18px;
+  list-style: none;
+}
+
