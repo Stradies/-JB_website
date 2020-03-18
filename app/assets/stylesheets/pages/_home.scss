@@ -66,7 +66,7 @@ body {
   justify-content: center;
 }
 
-.title-class h2 {
+.title-class h1 {
   font-family: 'Rajdhani', sans-serif;
 }
 
@@ -77,4 +77,118 @@ body {
 
 .spec-class p {
   margin: 0 !important;
+}
+
+.spec-class p span {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+// PROGRAM
+
+.program {
+  background: #276462;
+}
+
+.title-program h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+.content-program {
+  width: 70%;
+}
+
+.content-program p {
+  color: white;
+  font-size: 18px;
+}
+
+.content-program li {
+  color: white;
+  font-size: 18px;
+  list-style: none;
+}
+
+// TEACHER
+
+.teacher {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-teacher h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 35px;
+  color: #484848;
+}
+
+.content-teacher {
+  width: 70%;
+}
+
+.content-teacher p {
+  font-size: 18px;
+  color: #484848;
+}
+
+.content-teacher h3 {
+  color: #484848;
+}
+
+.content-teacher .avatar {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+// PLACE
+
+.place {
+  // background: #553A84;
+}
+
+.title-place h2 {
+  font-family: 'Rajdhani', sans-serif;
+  // color: white;
+  color: #484848;
+  font-size: 35px;
+}
+
+.content-place {
+  width: 70%;
+}
+
+.content-place p {
+  font-size: 18px;
+  color: white;
+  color: $grey;
+}
+
+// CONTACT
+
+.contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title-contact h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 35px;
+  color: #484848;
+}
+
+.content-contact {
+  width: 70%;
+}
+
+.content-contact p {
+  font-size: 18px;
+  color: #484848;
+}
+
+.content-contact i span {
+  font-size: 18px;
+  color: #484848;
+  font-family: "Work Sans", "Helvetica", "sans-serif";
 }

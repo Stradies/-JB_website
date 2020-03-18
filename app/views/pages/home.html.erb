@@ -1,4 +1,4 @@
-<div class="pictures container mb-3">
+<div class="pictures container my-5">
   <div class="pic1"></div>
   <div class="pic2"></div>
   <div class="double-pics">
@@ -8,30 +8,104 @@
   <div class="pic5"></div>
 </div>
 
-<div class="pictures-content container">
+<div class="pictures-content container mb-5">
   <div class="title-class">
-    <h2>Cours de cuisine indienne</h2>
+    <h1>Cours de cuisine indienne</h1>
   </div>
   <div class="spec-class">
     <div class="time">
       <i class="fas fa-clock mb-2"></i>
-      <p>Durée:</p>
+      <p><span>Durée:</span></p>
       <p>3 heures</p>
     </div>
     <div class="size">
       <i class="fas fa-user-friends mb-2"></i>
-      <p>Taille du groupe:</p>
+      <p><span>Taille du groupe:</span></p>
       <p>de 1 à 10 personnes</p>
     </div>
     <div class="price">
       <i class="fas fa-euro-sign mb-2"></i>
-      <p>Tarifs:</p>
+      <p><span>Tarifs:</span></p>
       <p>entre 20 et 60€ par personne</p>
     </div>
     <div class="language mb-2">
       <i class="fas fa-comments"></i>
-      <p>Langues:</p>
+      <p><span>Langues:</span></p>
       <p>Français, Anglais, Hindi</p>
+    </div>
+  </div>
+</div>
+
+<div class="program py-5">
+  <div class="container d-flex justify-content-between">
+    <div class="title-program">
+      <h2>Au programme</h2>
+    </div>
+    <div class="content-program">
+      <p>Vous allez avoir un cours intensif sur toutes les épices et condiments que nous utiliserons tout au long de la préparation avec leurs bienfaits sur la santé (ayurvedic).</p>
+      <p>Voici quelques une des mes spécialités:</p>
+      <ul>
+        <li>Végétatiens / Vegan recettes:</li>
+        <ul>
+          <li>- Biryani végétarien - flavoured rice with veggies of your choice (my favourite)</li>
+          <li>- Channa Masala - chickpeas spiced yummy gravy</li>
+          <li>- Légumes pulav avec raitha - mildly spiced rice loaded with veggies</li>
+        </ul>
+        <li>Recettes non végétariennes:</li>
+          <ul>
+            <li>- Spicy chicken fry with coconut milk rice</li>
+            <li>- Chicken/lamb biryani - flavoured rice with meat</li>
+            <li>- Butter chicken gravy</li>
+            <li>- Prawn masala - spiced prawns in onion tomato based sauce</li>
+          </ul>
+        </ul>
+        <p>En plus de ces recettes, vous pouvez me demander pour d'autres plats indiens et me demander si c'est réalisable avant de réserver le cours :).</p>
+    </div>
+  </div>
+</div>
+
+<div class="teacher container pt-5">
+  <div class="title-teacher">
+    <h2>Votre professeur</h2>
+  </div>
+  <div class="content-teacher">
+    <%= image_tag "https://media-exp1.licdn.com/dms/image/C5103AQGh8sVOqfLxJg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=OJrXP0Z_b-LQioRFmeAuZIpEy5Olz5MbRLLoehwB5vA", alt: "photo JB", class: "avatar" %>
+    <h3 class="mt-4">Jean-Baptiste dit Gibus</h3>
+    <p>Je m'appelle Jean Baptiste, j'ai vécu 3 ans en Inde et je suis tombé amoureux du pays.</p>
+    <p>La cuisine est une autre des mes passions, on mélange les deux, et me voilà à donner des cours de cuisine indienne !</p>
+    <p>C'est trop cool non ?</p>
+    <div class="mt-5">
+      <%= image_tag "pattern.svg", alt: "pattern", height: 60, with: 60%>
+    </div>
+  </div>
+</div>
+
+<div class="place pt-5">
+  <div class="container d-flex justify-content-between">
+    <div class="title-place">
+      <h2>Le lieu</h2>
+    </div>
+    <div class="content-place">
+      <p>Les cours ont lieu dans mon mignon appartement.</p>
+      <p>Je peux aussi me déplacer chez vous ou au sein de votre entreprise.</p>
+      <div class="mt-5">
+        <%= image_tag "oil-lamp.svg", alt: "oil-lamp", height: 60, with: 60%>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="contact container py-5">
+  <div class="title-contact">
+    <h2>Contact</h2>
+  </div>
+  <div class="content-contact">
+    <i class="fas fa-at"><span> chandapapa@gmail.com</span></i>
+    <br>
+    <br>
+    <i class="fas fa-mobile-alt"><span> 06.99.52.90.18</span></i>
+    <div class="mt-5">
+      <%= image_tag "ganesha.svg", alt: "ganesha", height: 60, with: 60%>
     </div>
   </div>
 </div>
