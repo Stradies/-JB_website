@@ -83,15 +83,58 @@ body {
   color: rgba(0, 0, 0, 0.6);
 }
 
+
+// OBSERVATION
+
+.observation {
+  background: #276462;
+}
+
+.title-observation h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+.content-observation {
+  width: 70%;
+}
+
+.content-observation p {
+  color: white;
+  font-size: 18px;
+}
+
+// GOAL
+
+.goal {
+  background: #276462;
+}
+
+.title-goal h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color: white;
+  font-size: 35px;
+}
+
+.content-goal {
+  width: 70%;
+}
+
+.content-goal p {
+  color: white;
+  font-size: 18px;
+}
+
 // PROGRAM
 
 .program {
-  background: #276462;
+  background: white;
 }
 
 .title-program h2 {
   font-family: 'Rajdhani', sans-serif;
-  color: white;
+  color: $grey;
   font-size: 35px;
 }
 
@@ -99,12 +142,16 @@ body {
   width: 70%;
 }
 
+.content-program a {
+  text-decoration: none;
+}
+
 .content-program h4 {
-  color: white;
+  color: $grey;
 }
 
 .content-program p {
-  color: white;
+  color: $grey;
   font-size: 18px;
 }
 
@@ -113,7 +160,7 @@ body {
 }
 
 .content-program li {
-  color: white;
+  color: $grey;
   font-size: 18px;
   list-style: none;
 }
