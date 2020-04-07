@@ -1,0 +1,107 @@
+
+// INITIATION FORMULA
+
+.picture-if {
+  display        : flex;
+  justify-content: center;
+}
+
+.pic-if {
+  background-image: url("initiation.jpg");
+  background-size : cover;
+  height: 50vh;
+  width: 40vh;
+  margin             : 1vh 0 3vh 0;
+  border-radius: 5px;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+}
+
+.title-class-if {
+  display        : flex;
+  justify-content: center;
+}
+
+.title-class-if h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-size  : 3rem;
+}
+
+// COMPLETE FORMULA
+
+.complete-formula {
+  background: #553A84;
+}
+
+.title-class-cf {
+  display        : flex;
+  justify-content: center;
+}
+
+.title-class-cf h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color      : white;
+  font-size  : 3rem;
+}
+
+.picture-cf {
+  display        : flex;
+  justify-content: center;
+}
+
+.pic-cf {
+  background-image   : url("love-chai.jpg");
+  background-size    : cover;
+  background-position: center;
+  height             : 50vh;
+  width              : 40vh;
+  margin             : 1vh 0 3vh 0;
+  border-radius      : 5px;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,0.5);
+}
+
+.spec-class-cf {
+  display        : flex;
+  justify-content: space-around;
+}
+
+.spec-class-cf i {
+  color: white;
+}
+
+.spec-class-cf p {
+  margin: 0 !important;
+  color : white;
+}
+
+.spec-class-cf p span {
+  color: white;
+}
+
+.title-program-cf h2 {
+  font-family: 'Rajdhani', sans-serif;
+  color      : white;
+  font-size  : 35px;
+}
+
+.content-program-cf {
+  width: 70%;
+}
+
+.content-program-cf h4 {
+  color: white;
+}
+
+.content-program-cf p {
+  color    : white;
+  font-size: 18px;
+}
+
+.content-program-cf ul {
+  margin-bottom: 0px;
+}
+
+.content-program-cf li {
+  color     : white;
+  font-size : 18px;
+  list-style: none;
+}
