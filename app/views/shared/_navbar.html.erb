@@ -1,13 +1,26 @@
 <div class="navbar-expand-sm navbar-portfolio">
-  <%= link_to root_path do %>
-    <div class="mr-2">
-      <%= image_tag "taj-mahal.svg", height: 50, width: 50, alt: "taj-mahal" %>
-    </div>
-  <% end %>
-
-  <%= link_to root_path do %>
+  <div class="logo">
     <div>
-      <h1> <span>CHANDA</span> PAPA</h1>
+      <%= link_to root_path do %>
+        <%= image_tag "taj-mahal.svg", height: 50, width: 50, alt: "taj-mahal" %>
+      <% end %>
     </div>
-  <% end %>
+
+    <div>
+      <%= link_to root_path do %>
+        <h1> <span>CHANDA</span> PAPA</h1>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="nav-items">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a href="prices" class="nav-link">Tarifs</a>
+      </li>
+      <li class="nav-item">
+        <a href="#" class="nav-link">Traiteur</a>
+      </li>
+    </ul>
+  </div>
 </div>

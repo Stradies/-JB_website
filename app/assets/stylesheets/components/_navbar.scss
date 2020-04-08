@@ -1,7 +1,6 @@
 .navbar-portfolio {
   display: flex;
-  justify-content: right;
-  // align-items: center;
+  justify-content: space-between;
   background: #f16c43;
   padding-top: 2%;
   padding-left: 3%;
@@ -11,7 +10,7 @@
 .navbar-portfolio h1 {
   font-family: 'Rajdhani', sans-serif;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3rem;
   color: #231f20;
   margin: 0px;
 }
@@ -20,3 +19,24 @@
   text-decoration: none;
 }
 
+.navbar-portfolio .nav-items {
+  flex-grow: 0;
+}
+
+.logo {
+  display: flex;
+}
+
+.nav-items {
+  margin-right: 3%;
+}
+
+.nav-items li {
+  list-style: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: $grey;
+  font-size: 1.3rem;
+}
